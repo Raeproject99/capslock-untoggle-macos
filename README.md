@@ -8,7 +8,7 @@ Tiny footprint: ~600KB binary, ~3MB RAM, ~0% CPU at idle.
 
 ## Install
 ```bash
-curl -sSL https://raw.githubusercontent.com/Raeproject99/CapsLock-as-a-modifier/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Raeproject99/capslock-untoggle-macos/main/install.sh | bash
 ```
 
 The installer will:

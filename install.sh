@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-REPO="Raeproject99/CapsLock-as-a-modifier"
+REPO="Raeproject99/capslock-untoggle-macos"
 VERSION="0.1.0"
 BINARY_URL="https://github.com/$REPO/releases/download/v$VERSION/capslock-untoggle-universal"
 PLIST_URL="https://github.com/$REPO/releases/download/v$VERSION/com.local.capslock-untoggle.plist"
