@@ -16,3 +16,6 @@ core-foundation = "0.9"
 strip = true
 opt-level = "z"   # optimize for binary size
 lto = true
+
+[package.metadata.bundle]
+identifier = "com.raeproject99.capslock-untoggle"
