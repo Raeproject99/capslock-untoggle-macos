@@ -43,7 +43,7 @@ rm ~/.local/bin/capslock-untoggle
 
 ## Build from source
 ```bash
-git clone https://github.com/Raeproject99/CapsLock-as-a-modifier
+git clone https://github.com/Raeproject99/capslock-untoggle-macos
 cd CapsLock-as-a-modifier
 cargo build --release
 ```
