@@ -14,7 +14,7 @@ echo "==> Downloading capslock-untoggle..."
 sudo curl -fsSL "$BINARY_URL" -o "$BINARY"
 sudo chmod +x "$BINARY"
 sudo xattr -cr "$BINARY"
-codesign --force --sign - "$BINARY"
+sudo codesign --force --sign - "$BINARY"
 
 echo "==> Installing LaunchAgent..."
 mkdir -p "$PLIST_DIR"
