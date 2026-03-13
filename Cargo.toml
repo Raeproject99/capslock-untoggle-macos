@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Makes Caps Lock behave as a held modifier instead of a toggle on macOS"
 license = "MIT"
-repository = "https://github.com/your-username/capslock-untoggle"
+repository = "https://github.com/Raeproject99/CapsLock-as-a-modifier"
 keywords = ["macos", "keyboard", "capslock", "hid"]
 categories = ["os::macos-apis"]
 
@@ -14,7 +14,7 @@ core-foundation = "0.9"
 
 [profile.release]
 strip = true
-opt-level = "z"   # optimize for binary size
+opt-level = "z"
 lto = true
 
 [package.metadata.bundle]
